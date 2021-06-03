@@ -1,4 +1,4 @@
-# RAM-UBOT
+# AZEL-UBOT
 from time import sleep
 from userbot import ALIVE_NAME, CMD_HELP, bot
 from userbot.events import register
@@ -23,43 +23,43 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "bulan":
+    if input_str == ".konmek":
 
         await event.edit(input_str)
 
         animation_chars = [
-            "🌗",
-            "🌘",
-            "🌑",
-            "🌒",
-            "🌓",
-            "🌔",
-            "🌕",
-            "🌖",
-            "🌗",
-            "🌘",
-            "🌑",
-            "🌒",
-            "🌓",
-            "🌔",
-            "🌕",
-            "🌖",
-            "🌗",
-            "🌘",
-            "🌑",
-            "🌒",
-            "🌓",
-            "🌔",
-            "🌕",
-            "🌖",
-            "🌗",
-            "🌘",
-            "🌑",
-            "🌒",
-            "🌓",
-            "🌔",
-            "🌕",
-            f"🌖"]
+            "Kontol",
+            "Adalah pedang",
+            "Untuk menusuk memek yg gatal akan duniawi",
+            "Kontol",
+            "Bahan yg penting untuk memulai sebuah reproduksi",
+            "Memek",
+            "Memek adalah nirwana bagi kekasih hati",
+            "Kekasih nya yaitu mr.kontol",
+            "Mata juling",
+            "Keseringan makan belink",
+            "Muka kek belut listrik",
+            "Sering narik",
+            "Kontol aeshtetic",
+            "Kontolnya di ukir batik",
+            "Jarang di masukin memek",
+            "Sekali masukin",
+            "Desahan nya akustik",
+            "Kalo ngaceng semua melirik",
+            "Sangee",
+            "Tolonggg",
+            "Kocokin",
+            "Bukan kontol ku",
+            "Tapi kepala bapakmu",
+            "Cape ajg",
+            "Udah lah yekan",
+            "Cipan zuuzuzu",
+            "Y",
+            "Bangke",
+            "Kontol",
+            "Baby",
+            "Babi",
+            f"gaje bat ya"]
 
         for i in animation_ttl:
 
@@ -358,7 +358,7 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Mutualan Yukkk!...**")
     sleep(2)
-    await typew.edit("𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌= [𝐓𝐄𝐊𝐀𝐍](https://www.instagram.com/ramadh20?r=nametag)")
+    await typew.edit("𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌= [𝐓𝐄𝐊𝐀𝐍] https://pin.it/4fmURIV")
 
 
 @register(outgoing=True, pattern='^.fck(?: |$)(.*)')
@@ -377,7 +377,7 @@ async def typewriter(typew):
 
 CMD_HELP.update({
     "vip":
-    "`.bulan` ; `.hati` ; `.gbn` ; `.tolol` ; `.gmt`\
+    "`.konmek` ; `.hati` ; `.gbn` ; `.tolol` ; `.gmt`\
     \nUsage: liat aja.\
     \n\n`.heli` ; `.tank` ; `.tembak`\n`.bundir`\
     \nUsage: liat sendiri.\
