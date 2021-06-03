@@ -7,11 +7,11 @@ from userbot.events import register
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(2)
-    await typew.edit("`Pertama-tama kamu cantik`")
+    await typew.edit("`GUA SAYANG SAMA LO`")
     sleep(2)
-    await typew.edit("`Kedua kamu manis`")
+    await typew.edit("`DAN SEBALIKNYA`")
     sleep(1)
-    await typew.edit("`Dan yang terakhir adalah kamu bukan jodohku`")
+    await typew.edit("`MUMPUNG KITA SAMA' SAYANG DAN CINTA KNP KITA G PACARAN? NANTI KITA NGENTOT YA MWAHH SAYANG KAMU`")
 # Create by myself @localheart
 
 
@@ -28,40 +28,40 @@ async def typewriter(typew):
                      "\n**Permisi Aku mau nimbrung Kk..**")
 
 
-@register(outgoing=True, pattern='^.geez(?: |$)(.*)')
+@register(outgoing=True, pattern='^.azel(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Vicky Peler☑️**")
-    await typew.edit("**Vicky Peler✅**")
+    await typew.edit("**DIABLO HIPOKRIT☑️**")
+    await typew.edit("**DIABLO HIPOKRIT✅**")
     sleep(1)
-    await typew.edit("**Toni Gilaa☑️**")
-    await typew.edit("**Toni Gilaa✅**")
+    await typew.edit("**Cleo kemloc☑️**")
+    await typew.edit("**Cleo kemloc✅**")
     sleep(2)
-    await typew.edit("**Karina Depresi☑️**")
-    await typew.edit("**Karina Depresi✅**")
+    await typew.edit("**Bink kontol☑️**")
+    await typew.edit("**Bink kontol✅**")
     sleep(2)
-    await typew.edit("**Yunus Gajelas☑️**")
-    await typew.edit("**Yunus Gajelas✅**")
+    await typew.edit("**ayunda bgst☑️**")
+    await typew.edit("**ayunda bgst✅**")
     sleep(2)
-    await typew.edit("**Adel GJM!☑️**")
-    await typew.edit("**Adel GJM!✅**")
+    await typew.edit("**tata bacot☑️**")
+    await typew.edit("**tata bacot✅**")
     sleep(2)
-    await typew.edit("**Jia GJB!☑️**")
-    await typew.edit("**Jia GJB!✅**")
+    await typew.edit("**moon cipan☑️**")
+    await typew.edit("**moon cipan✅**")
     sleep(2)
-    await typew.edit("**Imeh,MengRibet☑️**")
-    await typew.edit("**Imeh,MengRibet✅**")
+    await typew.edit("**piraa angen☑️**")
+    await typew.edit("**piraa angen✅**")
     sleep(2)
-    await typew.edit("**Jeje,Mengintil☑️**")
-    await typew.edit("**Jeje,Mengintil✅**")
+    await typew.edit("**daki vcs☑️**")
+    await typew.edit("**daki vcs✅**")
     sleep(3)
-    await typew.edit("**CUMA RAMA YANG BENER!**")
+    await typew.edit("**CUMA AZEL YG GANTENG !**")
 
 # Create by myself @localheart
 
 CMD_HELP.update({
-    "ram-ubot":
-    "`.rambot`\
+    "azel-ubot":
+    "`.zelbut`\
     \nUsage: menampilkan alive bot.\
     \n\n`.sadboy`\
     \nUsage: hiks\
