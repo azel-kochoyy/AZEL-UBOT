@@ -29,25 +29,25 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "tol":
+    if input_str == "tod":
 
         await event.edit(input_str)
 
         animation_chars = [
 
-            "Kontolll",
-            "Lo anak kontolll",
-            "Dibikin dari kontoll",
-            "Muka lo persis kontolll",
-            "Dasar anak NGONTOLLL!!!",
-            "Nolep kontoll",
-            "Ngerusuh kontoll",
-            "Bener bener kontoll",
-            "Padahal Lo gapunya kontolll",
-            "Karna Lo ga punya kontoll",
-            "Mending lo oprasi kontoll",
-            "Biar lo punya kontoll",
-            "Kasian cacat gada kontoll"
+            "NGENTOT",
+            "LO ANAK NGENTOT",
+            "LAHIR DARI MEMEK LONTE",
+            "MUKA JELEK GRADAKAN",
+            "Dasar anak BANGSAT!!!",
+            "ANAK GA DI SENGAJA!!!",
+            "LAHIR DARI KONDOM BOCOR",
+            "SPERMA PATUNGAN",
+            "BOCAH DONGO",
+            "BOCAH TOLOL",
+            "ANAK BROKEN HOME",
+            "LO ITU GA PANTES HIDUP , TUHAN NYIPTAIN LO BUAT JADI BAHAN CACI MAKIAN ATAU NGGA JADI SAMSAK TINJU",
+            "SUMPAH BECANDA AJA BG PISSS"
         ]
 
         for i in animation_ttl:
@@ -2982,7 +2982,7 @@ async def _(event):
 
 
 CMD_HELP.update({
-    "rammemes":
+    "HAVEFUN":
     "`.eye`\
 \nUsage: Lihat Sendiri.\
 \n\n`.earth`\
