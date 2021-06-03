@@ -23,21 +23,14 @@ from userbot import (
 
 from userbot.events import register
 
-# ========================= CONSTANTS ============================
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
+# ========================= CONSTANTS =================================== DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 DEF_UNAPPROVED_MSG = (
-    f"**╭━━━━━━━━━━━━━━━━━╮**\n    **🌟SELAMAT DATANG🌟**\n"
-    "**╰━━━━━━━━━━━━━━━━━╯**\n"
-    "▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"
-    f"**ANAK KONTOL ANAK NGENTOT,KALO NGECHAT MAJIKAN {DEFAULTUSER} ITU SALAM,\nHABIS ITU SABAR TUNGGU MAJIKAN GUA BALES,\nKALO GA DI BALES - BALES, LU JANGAN NYEPAM KONTOL, APA LAGI LU NGECHAT NYA CUMA MINTA VCS, BISA GUA BLOKIR!! KALO NYEPAM JUGA TAR GUA BLOKIR!!!! TUNGGU SI {DEFAULTUSER} NERIMA PESAN LU**\n"
-    "▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"
-    "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
-    "┣[• MASUK AJA KE @TEMAN_RANDOM\n"
-    "┣[• PESAN OTOMATIS\n"
-    "┣[• BY RAM-UBOT\n"
-    "╰✠╼━━━━━━❖━━━━━━━✠╯")
-# =================================================================
+              **WAALAIKUMSALAM**\n"
+   
+   
+    f"**BENTAR YA MANGGILIN ORANG NYA {DEFAULTUSER} , JAN SPAM NANTI KE BLOK!!
+# ===============================================================================
 
 
 @register(incoming=True, disable_edited=True, disable_errors=True)
