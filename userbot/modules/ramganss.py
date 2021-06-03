@@ -23,7 +23,7 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == ".konmek":
+    if input_str == ".cercin":
 
         await event.edit(input_str)
 
@@ -377,7 +377,7 @@ async def typewriter(typew):
 
 CMD_HELP.update({
     "vip":
-    "`.konmek` ; `.hati` ; `.gbn` ; `.tolol` ; `.gmt`\
+    "`.cercin` ; `.hati` ; `.gbn` ; `.tolol` ; `.gmt`\
     \nUsage: liat aja.\
     \n\n`.heli` ; `.tank` ; `.tembak`\n`.bundir`\
     \nUsage: liat sendiri.\
