@@ -5,21 +5,21 @@ from userbot.events import register
 from userbot import bot, TEMP_DOWNLOAD_DIRECTORY, CMD_HELP
 
 
-@register(outgoing=True, pattern=r'^.jurus(:? |$)([1-8])?')
+@register(outgoing=True, pattern=r'^.jutsu(:? |$)([1-8])?')
 async def _(fry):
-    await fry.edit("`MON MAAP KA AKU GBAN YA MAKANYA JAN SOK KERAS KONTOL...☠️`")
+    await fry.edit("`KASIAN UDAH JELEK DI BENJOTIN LAGI , NIH RASAIN BENJOT NO JUTSU`")
     level = fry.pattern_match.group(2)
     if fry.fwd_from:
         return
     if not fry.reply_to_msg_id:
-        await fry.edit("`Mohon Balas Di Sticker Sayang`")
+        await fry.edit("`BALAS KE STICKER BEGO OTAK PAKE JAN TARO DENGKUL NGENTOT!`")
         return
     reply_message = await fry.get_reply_message()
     if not reply_message.media:
         await fry.edit("`Gambar tidak di dukung`")
         return
     if reply_message.sender.bot:
-        await fry.edit("`Mohon Balas Di Sticker Sayang`")
+        await fry.edit("`BALES KE STICKER BEGO OTAK PAKE JAN TARO DENGKUL NGENTOT!`")
         return
     chat = "@image_deepfrybot"
     message_id_to_reply = fry.message.reply_to_msg_id
@@ -78,10 +78,10 @@ async def _(fry):
         return
     reply_message = await fry.get_reply_message()
     if not reply_message.media:
-        await fry.edit("`Mohon Balas Di Sticker Sayang`")
+        await fry.edit("`BALAS KE STICKER DONG KAWAN NGENTOT `")
         return
     if reply_message.sender.bot:
-        await fry.edit("`Mohon Balas Di Sticker Sayang`")
+        await fry.edit("`BALAS KE STICKER DONG KAWAN NGENTOT`")
         return
     chat = "@image_deepfrybot"
     message_id_to_reply = fry.message.reply_to_msg_id
@@ -130,7 +130,7 @@ async def _(fry):
 
 
 CMD_HELP.update({
-    "jurus":
-    "`.jurus` or `.jurus` [level(1-8)]"
+    "jutsu":
+    "`.jutsu` or `.jutsu` [level(1-8)]"
     "\nUsage: untuk mengubah foto/sticker."
 })
