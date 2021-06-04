@@ -25,9 +25,9 @@ async def _(event):
 
     if input_str == ".cercin":
 
-        await event.edit(input_str)
+        await event.edit(.cercin)
 
-        animation_chars = register(outgoing=True, pattern='^.cercin(?: |$)(.*)')
+        animation_chars 
 
             "Kontol",
             "Adalah pedang",
