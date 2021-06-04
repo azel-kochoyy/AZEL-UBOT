@@ -27,7 +27,7 @@ async def _(event):
 
         await event.edit(.input_str)
 
-        animation_chars 
+        animation_chars [
 
             "Kontol",
             "Adalah pedang",
