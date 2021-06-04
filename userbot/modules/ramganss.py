@@ -25,7 +25,7 @@ async def _(event):
 
     if input_str == ".cercin":
 
-        await event.edit(.cercin)
+        await event.edit(.input_str)
 
         animation_chars 
 
