@@ -23,50 +23,51 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == ".cercin":
+    if input_str == "bulan":
 
-        await event.edit(.input_str)
+        await event.edit(input_str)
 
-        animation_chars [
-
-            "Kontol",
-            "Adalah pedang",
-            "Untuk menusuk memek yg gatal akan duniawi",
-            "Kontol",
-            "Bahan yg penting untuk memulai sebuah reproduksi",
-            "Memek",
-            "Memek adalah nirwana bagi kekasih hati",
-            "Kekasih nya yaitu mr.kontol",
-            "Mata juling",
-            "Keseringan makan belink",
-            "Muka kek belut listrik",
-            "Sering narik",
-            "Kontol aeshtetic",
-            "Kontolnya di ukir batik",
-            "Jarang di masukin memek",
-            "Sekali masukin",
-            "Desahan nya akustik",
-            "Kalo ngaceng semua melirik",
-            "Sangee",
-            "Tolonggg",
-            "Kocokin",
-            "Bukan kontol ku",
-            "Tapi kepala bapakmu",
-            "Cape ajg",
-            "Udah lah yekan",
-            "Cipan zuuzuzu",
-            "Y",
-            "Bangke",
-            "Kontol",
-            "Baby",
-            "Babi",
-            f"gaje bat ya"]
+        animation_chars = [
+            "🌗",
+            "🌘",
+            "🌑",
+            "🌒",
+            "🌓",
+            "🌔",
+            "🌕",
+            "🌖",
+            "🌗",
+            "🌘",
+            "🌑",
+            "🌒",
+            "🌓",
+            "🌔",
+            "🌕",
+            "🌖",
+            "🌗",
+            "🌘",
+            "🌑",
+            "🌒",
+            "🌓",
+            "🌔",
+            "🌕",
+            "🌖",
+            "🌗",
+            "🌘",
+            "🌑",
+            "🌒",
+            "🌓",
+            "🌔",
+            "🌕",
+            f"🌖"]
 
         for i in animation_ttl:
 
             await asyncio.sleep(animation_interval)
 
             await event.edit(animation_chars[i % 32])
+
+
 
 
 @register(outgoing=True, pattern='^.heli(?: |$)(.*)')
