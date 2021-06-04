@@ -19,7 +19,7 @@ async def _(fry):
         await fry.edit("`Gambar tidak di dukung`")
         return
     if reply_message.sender.bot:
-        await fry.edit("`BALES KE STICKER BEGO OTAK PAKE JAN TARO DENGKUL NGENTOT!`")
+        await fry.edit("`BALES KE STICKER AZEL SAYANG!`")
         return
     chat = "@image_deepfrybot"
     message_id_to_reply = fry.message.reply_to_msg_id
@@ -81,7 +81,7 @@ async def _(fry):
         await fry.edit("`BALAS KE STICKER DONG KAWAN NGENTOT `")
         return
     if reply_message.sender.bot:
-        await fry.edit("`BALAS KE STICKER DONG KAWAN NGENTOT`")
+        await fry.edit("`BALAS KE STICKER AZEL SAYANG`")
         return
     chat = "@image_deepfrybot"
     message_id_to_reply = fry.message.reply_to_msg_id
