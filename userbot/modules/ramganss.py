@@ -28,6 +28,10 @@ async def _(event):
         await event.edit(input_str)
 
         animation_chars = [
+@register(outgoing=True, pattern='^.cercin(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit
             "Kontol",
             "Adalah pedang",
             "Untuk menusuk memek yg gatal akan duniawi",
